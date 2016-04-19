@@ -1,11 +1,4 @@
-/*
-Template Name: WpF Degree
-Author: WpFreeware
-Author URI: http://wpfreeware.com/
-Description: Ultra Responsive Bootstrap Educational Html5 Template.
-License: GPL V3 or later
-License URI: http://www.gnu.org/licenses/gpl.html
-*/
+
 
 
 /* Table of Content
@@ -114,29 +107,6 @@ img{
  border:none;
 }
 
-/* Preloader */
-#preloader {
-  position: fixed;
-  top:0;
-  left:0;
-  right:0;
-  bottom:0;
-  background-color:#000; /* change if the mask should have another color then white */
-  z-index:99999; /* makes sure it stays on top */
-}
-
-#status {
-  width:200px;
-  height:200px;
-  position:absolute;
-  left:50%; /* centers the loading animation horizontally one the screen */
-  top:50%; /* centers the loading animation vertically one the screen */
-  background-image:url(../img/status.GIF); /* path to your loading animation */
-  background-repeat:no-repeat;
-  background-position:center;
-  margin:-100px 0 0 -100px; /* is width and height divided by two */
-}
-
 /*scrol to top*/
 
 .scrollToTop {
@@ -175,7 +145,6 @@ img{
 }
 
 /*--------.menu_area-------- */
-
 #top-menu{
     margin-top: 14px;
     margin-bottom:-1px;
@@ -394,13 +363,13 @@ img{
 .feed_tabs li{margin-bottom: -2px;}
 
 .feed_tabs li a {
-  font-family: "Varela",sans-serif;
-  font-size: 18px;
+  //font-family: "Varela",sans-serif;
+  font-size: 14px;
   text-transform: uppercase;
   font-weight: bold;
 }
 .feed_tabs li a:hover{
-  color: #fff;  
+  color: #216D7A;
 }
 .news_tab {
   margin-top: 15px;
@@ -435,6 +404,8 @@ img{
 .feed_date{
   color: #ccc;
   font-style: italic;
+    float:right ;
+   margin-right: 10%;
 }
 .see_all {
   border-bottom: 2px solid #ccc;
@@ -985,22 +956,30 @@ div[data-dimension] {
   float: left;
   display: inline;
   width: 100%;
-  background-color: #1e2223;
-  padding: 60px 0px;
+  background-color: #1A1A1A;
+  //padding: 60px 0px;
+    padding-bottom: 20px;
 }
 .single_footer_widget {
   display: inline;
   float: left;
   padding: 0 10px;
   width: 100%;
+    text-align: center;
 }
 .single_footer_widget > h3 {
   color: #fff;
   text-transform: uppercase;
-  margin-bottom: 25px;
+  //margin-bottom: 25px;
+    padding-top:4px ;
+    padding-bottom: 4px;
+    border-bottom: 1px solid;
+    border-top: 1px solid;
+
 }
 .single_footer_widget>p{
-  color: #fff;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 12px;
 }
 .footer_widget_nav li a {
   font-size: 15px;
@@ -1017,9 +996,10 @@ div[data-dimension] {
 }
 .footer_bottom{
   float: left;
+    color: rgba(255, 255, 255, 0.7);
   display: inline;
   width: 100%;
-  background-color: #f8f8f8;
+  background-color: #111;
   padding: 20px 0px;
 }
 .footer_bootomLeft{
@@ -1903,11 +1883,10 @@ div[data-dimension] {
   .gallery_area a {width: 100%;margin-right: 0;margin-left: 0;height: 200px;}
 
 }
-
-
-
 @media(max-width:320px ){
-
-	
 }
+
+
+
+
 
