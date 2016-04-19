@@ -20,31 +20,27 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return view('home.home');
+        return view('home');
     }
 
     public function showEnsah(){
-        return view('home.under_construction');
-        return view('home.ensah');
+        return view('ensah');
     }
 
     public function showActualite(){
-        return view('home.actu');
+        return view('actu');
     }
 
     public function showGallery(){
-        return view('home.under_construction');
-        return view('home.gallery');
+        return view('gallery');
     }
 
     public function showFormation(){
-        return view('home.under_construction');
-        return view('home.formation');
+        return view('formation');
     }
 
     public function showEnseigant(){
-        return view('home.under_construction');
-        return view('home.corpsEnseigant');
+        return view('corpsEnseigant');
     }
 
     public function register(){
